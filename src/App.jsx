@@ -125,11 +125,7 @@ ApplayFilter(updatedList,SelectedFillter)
                   <button
                     onClick={() => deleteTask(task.id)}
                     style={{
-                      backgroundImage: `url(${deleteIcon})`,
-                      width: "20px",
-                      backgroundSize: "contain", // Ensure the image is fully visible
-                      backgroundRepeat: "no-repeat",
-                      border: "none",
+                      backgroundImage: `url(${deleteIcon})`
                     }}
                   ></button>
                 </div>
