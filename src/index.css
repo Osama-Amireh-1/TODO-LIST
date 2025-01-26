@@ -59,6 +59,15 @@ overflow: auto;
     overflow: auto;
 
 }
+.tt button
+{
+    width: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    height: auto;
+    background-color: white;
+}
 .tt div span
 {
     overflow: auto;
